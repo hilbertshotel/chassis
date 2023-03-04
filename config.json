@@ -1,0 +1,5 @@
+{
+    "ConnStr": "user=postgres dbname=chassis sslmode=disable host=/run/postgresql",
+    "HostAddr": "127.0.0.1:8888",
+    "TmpDir": "templates/*"
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=chassis
+
+[Service]
+Restart=always
+RestartSec=30s
+WorkingDirectory=/home/ubuntu/src/chassis
+ExecStart=/home/ubuntu/src/chassis/chassis
+StandardOutput=append:/home/ubuntu/src/chassis/logs/chassis.log
+StandardError=append:/home/ubuntu/src/chassis/logs/chassis.log
+
+[Install]
+WantedBy=multi-user.target
